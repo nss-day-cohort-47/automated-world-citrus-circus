@@ -1,0 +1,126 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+.headerimg {
+        width: 1500px;
+        height: 300px;
+        max-width: 100%;
+        object-fit: cover;
+
+}
+
+.navigationBar {
+    background-color: #EEDDCC;
+    max-height: 140px;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    
+}
+
+.navigationBar {
+    color: black;
+}
+
+.navigationBar a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 50px;
+    height: 80px;
+    color: #068;
+    float: right;
+}
+
+.navigationBar a:active {
+    color: #3399BB;
+}
+
+
+nav a:hover {
+    color: #FF6677;
+}
+
+#active {
+    color: #FF6677;
+}
+
+footer {
+    background-color: #FF6677;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+   
+
+}
+
+footer a:hover {
+    color: #3399BB;
+
+}
+
+.headline {
+    background-color: #3399BB;
+    color: black;
+    text-align: center;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.mainCopy {
+    padding: 15px;
+    text-align: left;
+    background-color:#EEEEEE;
+}
+
+.sections {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    text-align: center; 
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.cities{
+    background-color: #068;
+    color: white;
+    width: 33%;
+}
+
+.landmarks{
+    background-color: #3399BB;
+    width: 33%;
+    
+
+}
+
+.citizens{
+    background-color: #068;
+    color: white;
+    width: 33%;
+}
+
+footer a:hover {
+    color: #3399BB;
+}
+
+
+
+
+
+
