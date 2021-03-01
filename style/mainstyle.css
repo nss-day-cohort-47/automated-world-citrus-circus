@@ -1,0 +1,106 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+body {
+
+}
+
+header {
+}
+
+.headerimg {
+    width: 1500px;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.navigationBar {
+    background-color: #EEDDCC;
+    max-height: 140px;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    
+}
+
+.navigationBar {
+    color: black;
+}
+
+.navigationBar a {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 50px;
+    height: 80px;
+    color: #068;
+}
+
+nav a:hover {
+    color: #FF6677;
+}
+
+main {
+    background-color: #006688;
+    color: white;
+}
+
+footer {
+    background-color: #FF6677;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+   
+
+}
+
+.headline {
+    background-color: #3399BB;
+    color: black;
+    text-align: center;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.mainCopy {
+    margin: 15px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+.iconImage {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+#active {
+    color: #FF6677;
+}
+
+.link {    
+    color: white;
+}
+
+p a:hover {    
+    color: #EEDDCC;
+}
