@@ -6,3 +6,6 @@ import {landmarkList} from "./landmarks/landmarkList.js"
 
 landmarkList();
 
+import {peopleList} from "./people/peopleList.js"
+
+peopleList();
