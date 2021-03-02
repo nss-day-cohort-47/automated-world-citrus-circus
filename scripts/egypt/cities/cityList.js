@@ -8,6 +8,5 @@ export const cityList = () => {
         for (const egyptCity of cities) {
             finishHTMLRepresentations += city(egyptCity);
         }
-        console.log("finishHTMLRepresentations", finishHTMLRepresentations)
         contentElement.innerHTML += finishHTMLRepresentations;
 }
