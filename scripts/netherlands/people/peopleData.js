@@ -1,19 +1,19 @@
 const peopleCollection = [
     {
         personName: "Eddie Van Halen",
-        personImage: "eddievanhalen.jpg",
+        personImage: "eddievanhalen.jpeg",
         famousFor: "Lead guitarist and songwriter for the band Van Halen.",
         aliveToday: false
     },
     {
         personName: "Carice Van Houten",
-        personImage: "CaricevanHouten.jpg",
+        personImage: "CaricevanHouten.jpeg",
         famousFor: "Dutch born actress and singer",
         aliveToday: true
     },
     {
         personName: "Mata Hari",
-        personImage: "matahari.jpg",
+        personImage: "matahari.jpeg",
         famousFor: "Exotic dnacer and spy",
         aliveToday: false
     }

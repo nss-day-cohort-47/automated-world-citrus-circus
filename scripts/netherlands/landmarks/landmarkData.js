@@ -1,19 +1,19 @@
 const landmarkCollection = [
     {
         landmarkName: "Keukenhof",
-        landmarkImage: "Keukenhof.jpg",
+        landmarkImage: "Keukenhof.jpeg",
         landmarkLocation: "Lisse",
         openWithCovid: true
     },
     {
         landmarkName: "Rikjsmuseum",
-        landmarkImage: "rikjsmuseum.jpg",
+        landmarkImage: "rikjsmuseum.jpeg",
         landmarkLocation: "Amsterdam",
         openWithCovid: true
     },
     {
         landmarkName: "Windmills of Kinderijk",
-        landmarkImage: "windmills.jpg",
+        landmarkImage: "Kinderdijk.jpeg",
         landmarkLocation: "Kinderijk",
         openWithCovid: true
     }

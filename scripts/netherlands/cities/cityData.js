@@ -7,13 +7,13 @@ const cityCollection = [
     },
     {
       cityName: "Delft",
-      cityImage: "delft.jpg",
+      cityImage: "delft.jpeg",
       cityPopulation: "103,163",
       cityFact:"Dutch porcelain is called Delftware or Delft Blue.",
     },
     {
       cityName: "Rotterdam",
-      cityImage: "rotterdam.jpg",
+      cityImage: "rotterdam.jpeg",
       cityPopulation: "623,652",
       cityFact: "Rotterdam has 73 bridges.",
     },
