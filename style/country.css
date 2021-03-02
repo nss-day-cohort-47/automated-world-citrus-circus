@@ -8,11 +8,14 @@ h1 {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 1600px;
+
 }
 
 
 .headerimg {
-        width: 1500px;
+        width: 1600px;
         height: 300px;
         max-width: 100%;
         object-fit: cover;
@@ -48,6 +51,7 @@ body {
     height: 80px;
     color: white;
     float: right;
+    text-decoration: none;
 }
 
 .navigationBar a:active {
