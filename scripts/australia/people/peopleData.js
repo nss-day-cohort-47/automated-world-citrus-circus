@@ -1,4 +1,3 @@
-PERSON DATA 
 const peopleCollection = [ 
     {
         personName: "Nicole Kidman", 
@@ -20,3 +19,6 @@ const peopleCollection = [
         } 
     ]
 
+export getpeople = () => {
+    return peopleCollection
+}
