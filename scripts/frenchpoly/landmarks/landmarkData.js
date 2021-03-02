@@ -20,6 +20,8 @@ const landmarkCollection = [
     }
 ]
 
-
+export const getLandmark = () => {
+    return landmarkCollection;
+  };
 
 
