@@ -1,24 +1,24 @@
 const peopleCollection = [ 
     {
         personName: "Nicole Kidman", 
-        personImage: "i dont have ", 
+        personImage: "nicole.jpg", 
          famousFor: "Acting", 
          aliveToday: true 
         }, 
         { 
             personName: "Chris Hemsworth", 
-            personImage: "Portugal-PeopleMagellan", 
+            personImage: "chris.jpg", 
             famousFor: " Acting", 
             aliveToday: true 
         }, 
         { 
             personName: "Heath Ledger", 
-            personImage: "Portugal-PeopleFortado", 
+            personImage: "heath.jpg", 
             famousFor: "Acting", 
             aliveToday: false 
         } 
     ]
 
-export getpeople = () => {
-    return peopleCollection
-}
+export const getPeople = () => {
+    return peopleCollection;
+  };

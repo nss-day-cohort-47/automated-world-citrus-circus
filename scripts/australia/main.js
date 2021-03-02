@@ -1,7 +1,11 @@
 import {cityList} from "./cities/cityList.js"
 
-// cityList();
+cityList();
 
 import {landmarkList} from "./landmarks/landmarkList.js"
 
 landmarkList();
+
+import {peopleList} from "./people/peopleList.js"
+
+peopleList();

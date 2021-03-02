@@ -1,4 +1,4 @@
-import { landmark } from "./landmarks.js"
+import { landmark } from "./landmark.js"
 import { getLandmark } from "./landmarkData.js"
 
 export const landmarkList = () => {
