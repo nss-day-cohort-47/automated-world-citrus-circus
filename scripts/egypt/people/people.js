@@ -5,7 +5,7 @@ export const people = (peopleObj) => {
           <div class="people_name"><h3>${peopleObj.personName}</h3></div>
           <div class="famous_for">Famous for: ${peopleObj.famousFor}</div>
           <div class="alive_today">Are they alive: ${peopleObj.aliveToday === true ? "Yes" : "No"}</div>
-      </article>
+          </article>
       `;
   };
   
