@@ -1,6 +1,13 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .headerimg {
@@ -30,6 +37,7 @@ html {
 
 .navigationBar {
     color: white;
+    font-family: 'Comfortaa', cursive;
 }
 
 .navigationBar a {
