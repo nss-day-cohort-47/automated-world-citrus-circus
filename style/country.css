@@ -4,7 +4,7 @@ html {
 }
 
 .headerimg {
-        width: 1500px;
+        width: 1600px;
         height: 300px;
         max-width: 100%;
         object-fit: cover;
@@ -39,6 +39,7 @@ html {
     height: 80px;
     color: white;
     float: right;
+    text-decoration: none;
 }
 
 .navigationBar a:active {
