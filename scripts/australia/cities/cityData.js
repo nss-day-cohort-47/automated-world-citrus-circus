@@ -1,4 +1,3 @@
-CITY DATA 
 export const cityCollection = [ 
     { 
         cityName: "Sydney", 
@@ -19,3 +18,7 @@ export const cityCollection = [
         cityFact: "" 
     } 
 ] 
+export const getCity = () => {
+    return cityCollection;
+  };
+  
