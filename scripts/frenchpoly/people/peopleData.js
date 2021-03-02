@@ -1,5 +1,3 @@
-PERSON DATA
-
 const peopleCollection = [
     {
         personName: "Michel Bourez",
@@ -20,3 +18,7 @@ const peopleCollection = [
         personImage: "people3.jpg"
     }
 ]
+
+export const getPeople = () => {
+    return peopleCollection;
+  };

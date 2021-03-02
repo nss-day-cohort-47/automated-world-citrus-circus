@@ -7,7 +7,7 @@ const peopleCollection = [
     },
     {
         personName: "Ferdinand Magellan",
-        personImage: "Portugal-PeopleMagellan..jpg",
+        personImage: "Portugal-PeopleMagellan.jpg",
         famousFor: "Explorer who organized the Spanish expedition to the East Indies",
         aliveToday: false
     },
