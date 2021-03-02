@@ -3,7 +3,7 @@ import { getLandmark } from "./landmarkData.js"
 
 export const landmarkList = () => {
     const landmarks = getLandmark();
-    const contentElement = document.querySelector(".landmark_card")
+    const contentElement = document.querySelector("#landmark_card")
         let finishHTMLRepresentations = "";
         for (const australiaLandmark of landmarks) {
             finishHTMLRepresentations += landmark(australiaLandmark);
