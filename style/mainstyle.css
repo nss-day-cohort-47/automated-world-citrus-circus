@@ -1,13 +1,13 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
 }
 
-body {
-
+h1 {
+    font-family: 'Comfortaa', cursive;
 }
 
-header {
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .headerimg {
@@ -23,7 +23,7 @@ header {
     max-height: 140px;
     width: 100%;
     justify-content: flex-end;
-
+    font-family: 'Comfortaa', cursive;
 }
 
 .logo {
