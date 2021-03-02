@@ -10,7 +10,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
     width: 1600px;
-
 }
 
 
@@ -72,6 +71,8 @@ footer {
     padding: 30px 30px 10px 30px;
     text-align: center;
     color: white;
+    bottom: 0;
+    margin: 15px;
 }
 
 .headline {
@@ -90,7 +91,7 @@ footer {
 
 .sections {
     width: 100%;
-    height: 200px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -120,6 +121,7 @@ footer {
     margin: 3px;
     display: flex;
     justify-content: center;
+    
 }
 
 .people_card {
@@ -173,6 +175,9 @@ footer {
     background: white;
     color: black;
 }
+
+
+
 
 
 
