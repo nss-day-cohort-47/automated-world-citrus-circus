@@ -2,21 +2,21 @@
 const landmarkCollection = [
     {
         landmarkName: "Eiao Cliffs",
-        landmarkLocation: "Sintra",
-        openWithCovid: true
-        landmarkImage: "Portugal-LandmarkPena",
+        landmarkLocation: "Marquesas Islands",
+        openWithCovid: true,
+        landmarkImage: "../images/frenchPoly_img/landmark1.jpg"
     },
     {
-        landmarkName: "Palace of Pena",
-        landmarkLocation: "Sintra",
-        openWithCovid: true
-        landmarkImage: "Portugal-LandmarkPena",
+        landmarkName: "Octopus Grotto",
+        landmarkLocation: "Leeward Islands",
+        openWithCovid: true,
+        landmarkImage: "../images/frenchPoly_img/landmark2.jpg",
     },
     {
-        landmarkName: "Palace of Pena",
-        landmarkLocation: "Sintra",
-        openWithCovid: true
-        landmarkImage: "Portugal-LandmarkPena",
+        landmarkName: "Vaipo Falls",
+        landmarkLocation: "Kings Valley",
+        openWithCovid: true,
+        landmarkImage: "../images/frenchPoly_img/landmark3.jpg",
     }
 ]
 

@@ -2,21 +2,21 @@ PERSON DATA
 
 const peopleCollection = [
     {
-        personName: "Cristiano Ronaldo",
-        personImage: "Portugal-PeopleRonaldo",
-        famousFor: "Soccer",
-        aliveToday: true
+        personName: "Michel Bourez",
+        famousFor: "Professional surfer",
+        aliveToday: true,
+        personImage: "../images/frenchPoly_img/people1.jpg"
     },
     {
-        personName: "Ferdinand Magellan",
-        personImage: "Portugal-PeopleMagellan",
-        famousFor: "Explorer who organized the Spanish expedition to the East Indies",
-        aliveToday: false
+        personName: "Fabrice Santoro",
+        famousFor: "Retired tennis player",
+        aliveToday: true,
+        personImage: "../images/frenchPoly_img/people2.jpg"
     },
     {
-        personName: "Nelly Furtado",
-        personImage: "Portugal-PeopleFortado",
-        famousFor: "Singer-Songwriter",
-        aliveToday: true
+        personName: "Pascal Vahirua",
+        famousFor: "Retired internation football player",
+        aliveToday: true,
+        personImage: "../images/frenchPoly_img/people3.jpg"
     }
 ]
