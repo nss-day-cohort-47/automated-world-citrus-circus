@@ -18,7 +18,8 @@ header {
 }
 
 .navigationBar {
-    background-color: #EEDDCC;
+    background-color: #101357;
+    color: white;
     max-height: 140px;
     width: 100%;
     justify-content: flex-end;
@@ -44,29 +45,32 @@ header {
     margin-right: 20px;
     margin-top: 50px;
     height: 80px;
-    color: #068;
-}
-
-nav a:hover {
-    color: #FF6677;
-}
-
-main {
-    background-color: #006688;
     color: white;
 }
 
+nav a:hover {
+    color: #F0B13F;
+}
+
+#active {
+    color: #469E9F;
+}
+
+main {
+    background-color: white;
+    color: black;
+}
+
 footer {
-    background-color: #FF6677;
+    background-color: #101357;
     padding: 30px 30px 10px 30px;
     text-align: center;
-   
-
+    color: white;
 }
 
 .headline {
-    background-color: #3399BB;
-    color: black;
+    background-color: #101357;
+    color: white;
     text-align: center;
     max-height: 200px;
     padding: 50px;
@@ -83,7 +87,7 @@ footer {
     justify-content: space-around;
     text-align: center;
     font-size: large;
-    color: white;
+    color: black;
 }
 
 .iconImage {
@@ -93,14 +97,10 @@ footer {
 
 }
 
-#active {
-    color: #FF6677;
-}
-
 .link {    
-    color: white;
+    color: black;
 }
 
 p a:hover {    
-    color: #EEDDCC;
+    color: #469E9F;
 }
