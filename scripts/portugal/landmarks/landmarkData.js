@@ -1,20 +1,24 @@
 const landmarkCollection = [
     {
         landmarkName: "Palace of Pena",
-        landmarkImage: "Portugal-LandmarkPena",
+        landmarkImage: "Portugal-LandmarkPena.png",
         landmarkLocation: "Sintra",
         openWithCovid: true
     },
     {
         landmarkName: "Belem Tower",
-        landmarkImage: "Portugal-LandmarkBelem",
+        landmarkImage: "Portugal-LandmarkBelem.jpg",
         landmarkLocation: "Lisbon",
         openWithCovid: true
     },
     {
         landmarkName: "Jeronimos",
-        landmarkImage: "Portugal-LandmarkJeronimos",
+        landmarkImage: "Portugal-LandmarkJeronimos.jpg",
         landmarkLocation: "Lisbon",
         openWithCovid: false
     }
 ]
+
+export const getLandmark = () => {
+    return landmarkCollection
+  };
