@@ -1,5 +1,3 @@
-
-LANDMARK DATA 
 const landmarkCollection = [ 
 { 
     landmarkName: "Sydney Opera House", 
@@ -20,4 +18,6 @@ const landmarkCollection = [
          openWithCovid: false 
         }
      ]
-
+export getlandmark = () => {
+    return landmarkCollection
+}
