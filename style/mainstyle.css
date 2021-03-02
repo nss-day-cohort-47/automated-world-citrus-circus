@@ -97,6 +97,7 @@ footer {
     width: 200px;
     object-fit: cover;
     border-radius: 50%;
+    border: 10px solid #F0B13F;
 
 }
 
