@@ -1,23 +1,23 @@
-
-LANDMARK DATA 
 const landmarkCollection = [ 
 { 
     landmarkName: "Sydney Opera House", 
-    landmarkImage: "Portugal-LandmarkPena", 
+    landmarkImage: "operahouse.jpg", 
     landmarkLocation: "Sydney, Australia", 
     openWithCovid: true 
 }, 
 {
      landmarkName: "Port Arthur", 
-     landmarkImage: "idk",
+     landmarkImage: "portaurther.jpg",
       landmarkLocation: "Town in Tasmania, Australia", 
       openWithCovid: true 
     },
     {
          landmarkName: "Uluru", 
-         landmarkImage: "idk", 
-         landmarkLocation: "", 
+         landmarkImage: "uluru.jpg", 
+         landmarkLocation: "south region of the northern territorie ", 
          openWithCovid: false 
         }
      ]
-
+export const getLandmark = () => {
+    return landmarkCollection;
+}
