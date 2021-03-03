@@ -14,7 +14,7 @@ const landmarkCollection = [
     {
          landmarkName: "Uluru", 
          landmarkImage: "uluru.jpg", 
-         landmarkLocation: "south region of the northern territorie ", 
+         landmarkLocation: "South region of the Northern territory", 
          openWithCovid: false 
         }
      ]
