@@ -84,7 +84,7 @@ footer {
 }
 
 .mainCopy {
-    padding: 15px;
+    padding: 15px 30px 15px 30px;
     text-align: left;
     background-color: white;
 }
@@ -108,22 +108,19 @@ footer {
     flex-direction: column;
     color: black;
     width: 250px;
-    justify-content:  space-around;
-    border: black solid 2px;
+    height: 550px;
+    border-radius: 10%;
+    justify-content: space-around;
     background-color: #F1A8A2;
-    left margin: 60px;
-    right margin: 60px;
-    padding: 2px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .city_card_image {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    margin: 3px;
-    display: flex;
-    justify-content: center;
-    
+    padding: 10px 20px 10px 20px;
 }
 
 .people_card {
@@ -134,16 +131,30 @@ footer {
     text-align: left;
     color: black;
     background-color: #F0B13F;
-    border: black solid 2px;
+    height: 500px;
+    border-radius: 10%;
     width: 250px;
-    margin: 2px;
-    padding: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+div#city_card.city_card_container {
+    display: flex;
+}
+
+div#landmark_card.landmark_card_container {
+    display: flex;
+}
+
+div#people_card.people_card_container {
+    display: flex;
 }
 
 .people_card_image {
     height: 200px;
     width: 200px;
     margin: 3px;
+    padding: 10px 20px 10px 20px;
     object-fit: cover;
     display: flex;
     justify-content: center;
@@ -158,16 +169,17 @@ footer {
     justify-content: space-around;
     color: black;
     width: 250px;
-    border: black solid 2px;
+    height: 500px;
+    border-radius: 10%;
     background-color: #469E9F;
-    margin: 2px;
-    padding: 2px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .landmark_card_image {
     height: 200px;
     width: 200px;
-    margin: 3px;
+    padding: 10px 20px 10px 20px;
     object-fit: cover;
     display: flex;
     justify-content: center;
