@@ -6,16 +6,21 @@ h1 {
     font-family: 'Comfortaa', cursive;
 }
 
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
-    width: 1600px;
+    width: 100%;
 
 }
 
 
 .headerimg {
-        width: 1600px;
+        width: 100%;
         height: 300px;
         max-width: 100%;
         object-fit: cover;
@@ -27,6 +32,8 @@ body {
     max-height: 140px;
     width: 100%;
     justify-content: flex-end;
+    color: white;
+    font-family: 'Comfortaa', cursive;
 
 }
 
@@ -39,10 +46,6 @@ body {
     
 }
 
-.navigationBar {
-    color: white;
-    font-family: 'Comfortaa', cursive;
-}
 
 .navigationBar a {
     display: inline-block;
@@ -82,90 +85,126 @@ footer {
     padding: 50px;
 }
 
-.mainCopy {
+/* ^------LOOKS GOOD--------^ */
+
+
+/* .mainCopy {
     padding: 15px;
     text-align: left;
     background-color: white;
-}
+} */
+/* does nothing? */
 
 .sections {
-    width: 100%;
+    /* width: 100%;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 	justify-content: space-evenly;	
-    margin: 0;    
+    margin: 0;     */
 }
 
 .city_card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: left;
-    flex-direction: column;
-    color: black;
+    box-shadow: 3px 3px 3px 3px grey;
+    box-shadow: #101357;
+    background-image: linear-gradient(#e9b0aa, #f57d72);
     width: 250px;
+    /* display: inline-block; */
     justify-content: space-evenly;
+    text-align: left;
+    color: black;
+    display: inline-block;
     border: black solid 2px;
     background-color: #F1A8A2;
-    margin: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
     padding: 2px;
+    border-radius: 10px;
 }
 
-.city_card_image {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    margin: 3px;
-    display: flex;
-    justify-content: center;
+.landmark_card {
+    box-shadow: 3px 3px 3px 3px grey;
+    background-image: linear-gradient(#6dbbbd, #449d9e);
+    width: 250px;
+    /* display: inline-block; */
+    text-align: left;
+    justify-content: space-evenly;
+    color: black;
+    border: black solid 2px;
+    background-color: #469E9F;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 2px;
+    border-radius: 10px;
 }
 
 .people_card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px grey;
+    box-shadow: #101357;
+    background-image: linear-gradient(#f7c66c, #ca9a41);
+    width: 250px;
     justify-content: space-evenly;
     text-align: left;
     color: black;
     background-color: #F0B13F;
     border: black solid 2px;
-    width: 250px;
-    margin: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
     padding: 2px;
+    border-radius: 10px;
 }
 
-.people_card_image {
+.people_card_container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.landmark_card_container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city_card_container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.city_card_image {
+    border-radius: 10px;
     height: 200px;
     width: 200px;
-    margin: 3px;
     object-fit: cover;
-    display: flex;
+    margin: 3px;
     justify-content: center;
 }
 
 
-.landmark_card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: left;
-    justify-content: space-evenly;
-    color: black;
-    width: 250px;
-    border: black solid 2px;
-    background-color: #469E9F;
-    margin: 2px;
-    padding: 2px;
-}
-
-.landmark_card_image {
+.people_card_image {
+    border-radius: 10px;
     height: 200px;
     width: 200px;
     margin: 3px;
     object-fit: cover;
-    display: flex;
+    justify-content: center;
+}
+
+
+
+.landmark_card_image {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    object-fit: cover;
     justify-content: center;
 }
 
@@ -173,7 +212,3 @@ footer {
     background: white;
     color: black;
 }
-
-
-
-

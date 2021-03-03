@@ -1,18 +1,12 @@
-html {
-    display: flex;
-}
+
 
 body {
-    width: 1600px;
-    margin: auto;
+    width: 100%px;
+    margin: 0px;
 }
 
 h1 {
     font-family: 'Comfortaa', cursive;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
 }
 
 .headerimg {
