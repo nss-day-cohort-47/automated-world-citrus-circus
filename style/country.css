@@ -95,22 +95,24 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-	justify-content: space-evenly;	
+    justify-content: space-around;
+    padding: 5px;	
     margin: 0;    
 }
 
 .city_card {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: left;
     flex-direction: column;
     color: black;
     width: 250px;
-    justify-content: space-evenly;
+    justify-content:  space-around;
     border: black solid 2px;
     background-color: #F1A8A2;
-    margin: 2px;
+    left margin: 60px;
+    right margin: 60px;
     padding: 2px;
 }
 
@@ -125,10 +127,10 @@ footer {
 }
 
 .people_card {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:  space-around;
     text-align: left;
     color: black;
     background-color: #F0B13F;
@@ -149,11 +151,11 @@ footer {
 
 
 .landmark_card {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: left;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: black;
     width: 250px;
     border: black solid 2px;
